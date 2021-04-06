@@ -1,0 +1,301 @@
+.wrapper {
+    padding-left: 128px;
+    padding-right: 128px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.colorlib_nav {
+    display: flex;
+    justify-content: space-between;
+}
+.items {
+   display: flex;
+   list-style-type: none; 
+   margin-bottom: 0px;
+}
+.logo__item{
+    margin-right: 200px;
+    padding-left: 200px;
+}
+.items>.menu__item {
+    padding-right: 13px;
+    margin-right: 50px;
+    position: relative;
+    margin-top: 80px;
+    
+}
+
+.items>.menu__item>.itempad {
+    text-decoration: none;
+    color:  #000000;
+    font-family: 'Gotham Rounded Medium';
+}
+
+.items>.menu__item::before {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.search {
+    margin-left: 50px;
+    margin-top: 70px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;  
+}
+
+input{
+    width:250px;
+    height: 25px;
+    border-radius: 10px;
+    border-color:#20ecc4 ; 
+    
+}
+
+.shoe {
+    background-image: url(../img/womens.png);
+    height: 563px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.men {
+    font-family: 'Gotham Rounded Bold';
+    color: rgb(94, 96, 99);
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.menu_shoes {
+    
+    width: 1101px;
+    height: 60px;
+    background-color: #3cc4a8;
+   
+}
+
+.info {
+    font-family: 'Gotham Rounded Medium';
+    margin: 0px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.menu_shoes>.info>.info_link{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right:100px ;
+    transition: 0.5s;
+}
+
+.info_link:hover {
+    opacity: 55%;
+}
+
+.menu_shoes>.info>.info_link1{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.info_link1:hover {
+    opacity: 55%;
+}
+.var{
+    display: flex;
+    margin-top: 25px;
+}
+
+.casual{
+    margin-right: 199px;
+    width: 451px;
+    height: 346px;
+    background-image: url("../img/nike_casual.png");
+    background-repeat: no-repeat;
+    font-family: 'Gotham Rounded Medium';
+    color: rgb(182, 59, 151);
+    text-align: center;
+
+    font-size: 40px;
+}
+
+.shop__now{
+    width: 200px;
+    height: 50px;
+    font-size: 20px !important;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.button_full {
+    border: none;
+    background-color: #87c7c7;
+    cursor: pointer;
+
+}
+
+.button_full:hover {
+    background-color: #20ecc4;
+}
+
+.sport{
+    width: 451px;
+    height: 346px;
+    background-image: url("../img/sport_nike.png");
+    font-family: 'Gotham Rounded Medium';
+    color: rgb(182, 59, 151);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text__prod{
+    text-align: center;
+    font-family: 'Gotham Rounded Medium';
+    color: silver;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+
+
+.partners {
+    text-align: center;
+    color: silver;
+    margin-top: 100px;
+}
+
+.text {
+    display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin-left: 235px;
+  margin-top: 100px;
+}
+.add {
+    margin-right: 150px; 
+}
+.body_text {
+    font-family: 'Gotham Rounded Book';
+    font-size: 12px;
+}
+.customer{
+    margin-right: 150px;
+}
+.items2 {
+    display: block;
+    list-style-type: none; 
+    font-family: 'Gotham Rounded Medium';
+    font-size: 14px;
+
+ }
+
+ .items2>.customer__items>.care {
+    text-decoration: none;
+    color: silver;
+ }
+
+.information{
+    margin-right: 150px;
+}
+ 
+.items3 {
+    display: block;
+    list-style-type: none; 
+    font-family: 'Gotham Rounded Medium';
+    font-size: 14px;
+    
+ }
+
+ .items3>.information__items>.inf {
+    text-decoration: none;
+    color: silver;
+ }
+
+ .customerCare{
+    margin-right: 150px;
+}
+ .contact_information{
+    margin-right: 150px;
+}
+.items4 {
+    display: block;
+    list-style-type: none; 
+    font-family: 'Gotham Rounded Medium';
+    font-size: 14px;
+    
+ }
+
+ .items4>.contact__items>.cont {
+    text-decoration: none;
+    color: silver;
+ }
+
+
+
+ .items__shoes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+ }
+
+ .item__shoe {
+    transition: 1s;
+    border: 1px;
+   }
+   .item__shoe:hover {
+    transform: scale(1.1);
+   }
+   .desc__text>a {
+    text-decoration: none;
+    font-family: 'Gotham Rounded Book';
+    color: #000000;
+    font-size: 17px;
+   }
+
+   
+
+   .block-27>.num__item>li {
+       display: inline;
+       
+    
+   }
+
+   .btn {
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #3cc4a8;
+    color: black;
+    border-radius: 50%;
+   }
+
+   .active {
+    padding: 10px 15px 10px 15px;
+    background-color: #000000;
+    border-radius: 50%;
+   }
+   .active>span {
+       color: aliceblue;
+   }
+
+   .numbers {
+       text-decoration: none;
+       padding: 10px 15px 10px 15px;
+       background-color: #3cc4a8;
+       border-radius: 50%;
+       color: black;
+       transition: 0.3;
+   }
+
+   .numbers:hover {
+    background-color: #87c7c7;;
+   }
+
+   .btn:hover {
+    background-color: #87c7c7;;
+   }
